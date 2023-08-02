@@ -6,7 +6,8 @@ This testing is carried out to fulfill the technical test given by Jojonomic.
 https://docs.google.com/spreadsheets/d/1rBB4SJnwpiLJxCVjtmJpd2VFxTTaAmhXf4ESVSVC1jk/edit?usp=sharing
 
 # Report
-![image](https://github.com/dindamadutasya/WebTesting_NSW/assets/97401593/69ccf991-e1b6-458c-8110-be1412da957c)
+![image](https://github.com/dindamadutasya/WebTesting_NSW/assets/97401593/f056d831-c702-42a6-af8f-e0f2d0106f44)
+
 
 # Tool & Technology Stack
 - Java 8
@@ -15,11 +16,21 @@ https://docs.google.com/spreadsheets/d/1rBB4SJnwpiLJxCVjtmJpd2VFxTTaAmhXf4ESVSVC
 - Serenity BDD
 - Intellij IDEA
 
-- # How to Run Project
-- Install  [Java 8](https://www.oracle.com/java/technologies/downloads/#java8) and [Maven](https://maven.apache.org/download.cgi) on your device
-- We recommended you to run this project in Intellij IDEA and make sure install Maven and Cucumber for Java and Gherkins first
-- Clone project on your device
-```
+## How to Run This Project:
+  * You need to install Java (we recommend to use Java 8) and Maven first on your machine
+  * Clone this project into your machine
+  * Run this project from IDE:
+      * Open this project from your IDE
+      * Open your IDE terminal
+      * Type and run this command on your IDE terminal:
+          * mvn clean verify
+  * Run this project from terminal:
+      * Open your terminal
+      * Change your directory to where you place this project on your machine using this command:
+          * cd your-project-directory-path
+      * Type and run this command on your terminal:
+          * mvn clean verify
+          * 
 git clone https://github.com/dindamadutasya/WebTesting_NSW.git
 ```
 - Open IntelliJ IDEA and the project on your device
