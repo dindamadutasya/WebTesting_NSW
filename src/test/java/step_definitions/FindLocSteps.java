@@ -35,6 +35,7 @@ public class FindLocSteps {
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
+    // Case 2
     @When("User enters \"([^\"]*)\" in the search input")
     public void userEntersInTheSearchInput(String suburb){
           FindLocPage findLocPage = new FindLocPage(webDriver);
@@ -47,8 +48,6 @@ public class FindLocSteps {
     FindLocPage findLocPage = new FindLocPage(webDriver);
     findLocPage.clickSuburbBtn();
     }
-
-
 
     @And("User click choose All for filter")
     public void userClickChooseAllForFilter() {
