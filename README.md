@@ -33,8 +33,4 @@ https://docs.google.com/spreadsheets/d/1rBB4SJnwpiLJxCVjtmJpd2VFxTTaAmhXf4ESVSVC
           * 
 git clone https://github.com/dindamadutasya/WebTesting_NSW.git
 ```
-- Open IntelliJ IDEA and the project on your device
-- For Run Automation Testing
-```
-go to maven, clean & test
-```
+
