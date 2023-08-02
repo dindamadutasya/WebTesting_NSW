@@ -45,12 +45,25 @@ public class FindLocSteps {
     @And("User clicks the search button")
     public void userClicksTheSearchButton() {
     FindLocPage findLocPage = new FindLocPage(webDriver);
-    findLocPage.clickFindLocationsBtn();
+    findLocPage.clickSuburbBtn();
+    }
+
+
+
+    @And("User click choose All for filter")
+    public void userClickChooseAllForFilter() {
+        FindLocPage findLocPage = new FindLocPage(webDriver);
+        findLocPage.clickAllFilter();
+    }
+
+    @And("User click minimize map button")
+    public void userClickMinimizeMapButton() {
+        FindLocPage findLocPage = new FindLocPage(webDriver);
+        findLocPage.clickMinMapBtn();
     }
 
     @Then("User should see \"([^\"]*)\" in the search result list")
     public void userShouldSeeInTheSearchResultList(String expectedResult) {
         By locator = By.xpath("//div[@class='locator__results']/h2[@class='is-excluded'], //a[.='Rockdale Service Centre']" + expectedResult + "']");
     }
-
 }

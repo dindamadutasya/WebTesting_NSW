@@ -12,7 +12,7 @@ public class SearchPage {
         this.driver = driver;
     }
 
-    @FindBy(xpath = "//div[@id='homeautosuggestKccZIMvXRPk']/input[@name='q']")
+    @FindBy(xpath = "//section[@class='personalised-content']/div[@class='region']/div[1]//input[@name='q']")
     private WebElement searchField;
 
     @FindBy(css = "[data-personalised-variant-id='901'] [width='31']")

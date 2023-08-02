@@ -11,7 +11,9 @@ Feature: Find Locations Navigation
     When User click the Find Locations button
     Then User will direct to Find a Service NSW location page
     When User enters "<LocationSuburb>" in the search input
+    And User click choose All for filter
     And User clicks the search button
+    And User click minimize map button
     Then User should see "<ExpectedResult>" in the search result list
 
     Examples:
